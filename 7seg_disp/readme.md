@@ -2,9 +2,15 @@
 
 An embedded systems project built for an **STM32VL Discovery** board (ARM Cortex-M3) featuring a multiplexed dual 2-digit 7-segment display driver built with serial-in parallel-out shift registers and local user input handling[cite: 2].
 
-| Initial State (Setting Time) | Active Timer Countdown |
-| :---: | :---: |
-| ![Showcase 1](showcase1-ezgif.com-optimize.gif) | ![Showcase 2](showcase2-ezgif.com-optimize.gif) |
+### Initial State (Setting Time)
+*Adding time to the timer, subtracting, and configuring duration.*
+
+![Showcase 1](showcase1-ezgif.com-optimize.gif)
+
+### Active Timer Countdown
+*Demonstrating that the system remains responsive even while the countdown is actively running.*
+
+![Showcase 2](showcase2-ezgif.com-optimize.gif)
 
 ---
 
