@@ -1,6 +1,16 @@
-# STM32 LCD & UART Stairosphere Controller
+# STM32 LCD & UART Staircase Controller
 
 An embedded systems project built for an STM32VL Discovery board (ARM Cortex-M3) featuring a 2x16 character LCD (HD44780 controller) interfaced via shift registers, an incremental rotary encoder with push-button integration, and an internal UART communication channel for terminal control and non-volatile flash storage.
+
+### LCD Screen Display
+*Real-time operational states and timer views on the 2x16 character display.*
+
+![LCD Screen](lcd_screen1-ezgif.com-video-to-gif-converter.gif)
+
+### PC Terminal Control (UART)
+*Remote monitoring and terminal user interface interaction.*
+
+![PC Screen](pc_screen2-ezgif.com-video-to-gif-converter.gif)
 
 ---
 
