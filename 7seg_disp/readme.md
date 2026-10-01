@@ -1,13 +1,17 @@
 # STM32 Staircase Timer & Dual 7-Segment Controller
 
-An embedded systems project built for an **STM32VL Discovery** board (ARM Cortex-M3) featuring a multiplexed dual 2-digit 7-segment display driver built with serial-in parallel-out shift registers and local user input handling.
+An embedded systems project built for an **STM32VL Discovery** board (ARM Cortex-M3) featuring a multiplexed dual 2-digit 7-segment display driver built with serial-in parallel-out shift registers and local user input handling[cite: 2].
+
+| Initial State (Setting Time) | Active Timer Countdown |
+| :---: | :---: |
+| ![Showcase 1](showcase1-ezgif.com-optimize.gif) | ![Showcase 2](showcase2-ezgif.com-optimize.gif) |
 
 ---
 
 ## Features & Functional Overview
 
 - **Dual 2-Digit 7-Segment Displays:** 
-  - One display shows the currently set countdown time in seconds (adjustable from up to 99 seconds)[cite: 2].
+  - One display shows the currently set countdown time in seconds (adjustable up to 99 seconds)[cite: 2].
   - The second display shows the remaining time after triggering the timer[cite: 2].
 - **Multiplexed Display Control:** Driven using cascaded **74HC164** shift registers for segment data and high-side transistor switches (NPN/PNP pairs) for digit anodes, refreshed at high frequency (>50–100 Hz) to maintain persistent visual output without flicker[cite: 2, 5, 6].
 - **Local Control Interface:** Three tactile input buttons for adjusting time parameters (*Increment*, *Decrement*, *Confirm*) featuring software debounce[cite: 2].
