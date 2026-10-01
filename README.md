@@ -1,6 +1,6 @@
 # STM32 Embedded Systems Projects Workspace
 
-This repository contains university embedded systems laboratory tasks built for the STM32VL Discovery evaluation board (ARM Cortex-M3) using Keil uVision without heavy HAL frameworks.
+This repository contains university embedded systems laboratory tasks built for the STM32VL Discovery evaluation board (ARM Cortex-M3) using Keil uVision.
 
 ## Projects Overview
 
